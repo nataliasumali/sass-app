@@ -41,3 +41,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rails_12factor' #keep our app compliant with 12 factor manifesto 
+#console log for kernel (when you have your app running, you have input and output. the hub is the kernel. the stand out communicates with the kernel.)
+#standout logging and precompiling assets
